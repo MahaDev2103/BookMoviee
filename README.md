@@ -22,5 +22,5 @@ For #3 , update db by unblocking the seats, response to customer
 Deployment:
 1. Write Dockerfile
 2. When code changes are pushed to github, trigger a jenkins build. Establish a webhook
-3. Jenkinsfile should build docker image and push it to dockerhub
+3. Jenkinsfile should run unit test, build docker image and push it to dockerhub
 4. Deploy the image to AWS cloud.
