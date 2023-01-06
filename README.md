@@ -1,15 +1,15 @@
 # BookMoviee
 Python Flask Application to handle movie booking
 
-Maintain a database with below data:
-movie name
-show time
-screen
-seats 
-availability status
+Maintain a relational database table with below data:
+movie name,
+show time,
+screen,
+seats ,
+availability status.
 
 
-Provided API endpoints for the below:
+Provide API endpoints for the below:
 
 1. List all the movies running in theatre, the respective show times and availability of tickets- GET /movies
 2. Select the showtime and movie of users' interest - POST /bookmovie
