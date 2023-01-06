@@ -1,5 +1,5 @@
 # BookMoviee
-Python Flask Application to handle movie booking
+Java Spring Application to handle movie booking
 
 Maintain a relational database table with below data:
 movie name,
