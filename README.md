@@ -18,3 +18,9 @@ Provide API endpoints for the below:
 For #1, get the movies from db and the seat numbers which are available. 
 For #2 , Use API rate limiting, block the no of seats requested in db, return the seat numbers.
 For #3 , update db by unblocking the seats, response to customer
+
+Deployment:
+1. Write Dockerfile
+2. When code changes are pushed to github, trigger a jenkins build. Establish a webhook
+3. Jenkinsfile should build docker image and push it to dockerhub
+4. Deploy the image to AWS cloud.
